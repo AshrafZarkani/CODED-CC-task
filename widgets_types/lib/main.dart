@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets_types/package/package_example.dart';
+import 'package:widgets_types/task_soluation/task_soluation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueGrey),
         useMaterial3: true,
       ),
-      home: const PackageExample(),
+      home: const TaskSoluation(),
     );
   }
 }
